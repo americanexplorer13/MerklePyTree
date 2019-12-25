@@ -6,10 +6,9 @@
 """
 
 import hashlib
-from MerklePyTree.MerkleTree import *
 
 
-class tree_init(object):
+class tree_init():
 
     def __init__(self, init_blocks=None, encrypt_mode="sha256"):
         self.init_blocks = init_blocks
